@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-detail</title>
+    <!------Link style. id="bg-cover" style="background-image: url('./img/banner/');"css- id="bg-cover" style="background-image: url('./img/banner/');"------>
+    <link rel="stylesheet" href="style.css" />
+
+    <!------Link bootstrap------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!------Link font-awesome------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <!------Navigation bar------->
+    <header class="container-fluid align-center py-2 shadow-lg ">
+      <div class="container d-flex justify-content-between" id="navigation">
+        <div class="logo py-2">
+          <img src="./img/logo.png" />
+        </div>
+        
+        <div>
+          <ul id="navbar">
+            <li>
+              <a  href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="active" href="shop.html">Shop</a>
+            </li>
+            <li>
+              <a href="blog.html">Blog</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li>
+              <a class="d-none d-md-flex" href="cart.html"><i class="fa-solid fa-bag-shopping fs-5 d-flex"></i></a>
+            </li>
+            <a href="#" class="d-md-none" id="close"><i class="fa-solid fa-xmark"></i></a>
+          </ul>
+        </div>
+
+        <div class="mobile  gap-1 py-3 d-md-none d-flex ">
+          <a href="cart.html"><i class="fa-solid fa-bag-shopping fs-5 d-flex"></i></a>
+          <i id="bar" class="fa-solid fa-indent"></i>        
+        </div>
+
+      </div>
+    </header>
+
+      <!------ Products-Detail------->                    
+      <div class="container single-product">
+        <div class="row gy-2">
+            <div class="col-12 col-md-12 col-lg-6 my-5">
+                <img src="./img/products/f1.jpg" width="100%" id="productImg">
+                <div class="small-img-row my-2">
+                    <div class="small-img-col">
+                        <img src="../img/products/f1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./img/products/f2.jpg" width="100%" class="small-img" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./img/products/f3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col" >
+                        <img src="../img/products/f4.jpg" width="100%" class="small-img" >
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6" id="content-detail">
+                <p>Home / T-Shirt</p>
+                <h1>Men's Fashion T-Shirt</h1>
+                <h4>$139.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>L</option>
+                    <option>M</option>
+                    <option>S</option>
+                </select> 
+                <input type="number" value="1">
+                <a class="btn" href="">Add To Cart</a>
+                <h3>Product Details <i class="fa-solid fa-indent"></i></h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, pariatur consectetur maiores vitae error ipsum ipsa eveniet libero tenetur provident aliquid adipisci porro voluptatem. Adipisci eius ut reiciendis nobis quasi?</p>
+            </div>
+        </div>
+      </div>
+      
+
+
+      <!------ Products------->
+      <div class="container my-5">
+        <div class="heading text-center">
+          <h1 class="fw-bold ">Featured Products</h1>
+          <small>Summer Collection New Modern Desgin</small>
+      </div>
+      <div class="product my-5">
+          <div class="row gy-5 gx-5">
+              <div class="col-12 col-md-6 col-lg-3">
+                  <div class="pro">
+                      <img src="./img/products/f1.jpg" class="card-img-top my-3 px-2">
+                      <div class="card-body text-start py-2 mx-2">
+                        <p class="card-text">adidas</p>
+                        <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                        <div class="star fs-6">
+                            <i class="fa-solid fa-star fs-6"></i>
+                            <i class="fa-solid fa-star fs-6"></i>
+                            <i class="fa-solid fa-star fs-6"></i>  
+                            <i class="fa-solid fa-star fs-6"></i>
+                            <i class="fa-solid fa-star fs-6"></i>
+                        </div>
+                        <h4 class="fs-6 fw-bold my-1">$78</h4>
+                      </div>
+                      <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                    </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                  <div class="pro">
+                      <img src="./img/products/f2.jpg" class="card-img-top my-3 px-2">
+                      <div class="card-body text-start py-2 mx-2">
+                        <p class="card-text">adidas</p>
+                        <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                        <div class="star fs-6">
+                            <i class="fa-solid fa-star fs-6"></i>
+                            <i class="fa-solid fa-star fs-6"></i>
+                            <i class="fa-solid fa-star fs-6"></i>  
+                            <i class="fa-solid fa-star fs-6"></i>
+                            <i class="fa-solid fa-star fs-6"></i>
+                        </div>
+                        <h4 class="fs-6 fw-bold my-1">$78</h4>
+                      </div>
+                      <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                    </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                  <div class="pro">
+                      <img src="./img/products/f3.jpg" class="card-img-top my-3 px-2">
+                      <div class="card-body text-start py-2 mx-2">
+                        <p class="card-text">adidas</p>
+                        <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                        <div class="star fs-6">
+                            <i class="fa-solid fa-star fs-6"></i>
+                            <i class="fa-solid fa-star fs-6"></i>
+                            <i class="fa-solid fa-star fs-6"></i>  
+                            <i class="fa-solid fa-star fs-6"></i>
+                            <i class="fa-solid fa-star fs-6"></i>
+                        </div>
+                        <h4 class="fs-6 fw-bold my-1">$78</h4>
+                      </div>
+                      <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                    </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                  <div class="pro">
+                      <img src="./img/products/f4.jpg" class="card-img-top my-3 px-2">
+                      <div class="card-body text-start py-2 mx-2">
+                        <p class="card-text">adidas</p>
+                        <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                        <div class="star fs-6">
+                            <i class="fa-solid fa-star fs-6"></i>
+                            <i class="fa-solid fa-star fs-6"></i>
+                            <i class="fa-solid fa-star fs-6"></i>  
+                            <i class="fa-solid fa-star fs-6"></i>
+                            <i class="fa-solid fa-star fs-6"></i>
+                        </div>
+                        <h4 class="fs-6 fw-bold my-1">$78</h4>
+                      </div>
+                      <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                    </div>
+              </div>          
+          </div>
+      </div>
+      </div>
+      
+
+
+
+     <!------ Banner-3 And SignUP------->
+     <div class="banner-3 d-flex justify-content-around px-5 " id="banner-3">    
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="left">
+              <h4 class="fw-bold">Sign Up For Newletters</h4>
+              <p>get E-mail updates about our lastest shop and <span class="text-warning">special offers.</span></p>
+            </div>
+          </div>
+
+         <div class="col-12 col-md-6">
+           <div class="right d-flex my-3">
+             <input type="text" placeholder="Your email address">
+             <button class="fw-bold">Sign Up</button>
+           </div>
+         </div> 
+        </div>
+      </div>
+      </div>    
+
+
+    <!------ Footer ------->
+    <div class="container" id="footer">
+      <div class="row">
+        <div class="col-12 col-md-4 my-3">
+          <div class="ft-1 text-secondary">
+            <img src="./img/logo.png" alt="">
+            <p class="fw-bold my-3">Contact</p>
+            <div class="info">
+              <p><span>Address:</span> 562Welligatan Road. St 42. <br>San Francisco</p>
+              <p><span>Phone:</span> +12 2222 355/ +91 24443 332</p>
+              <p><span>Hours:</span> 10:00 - 18:00 Man-Sat</p>
+            </div>
+            <p class="fw-bold">Follow Us</p>
+          </div>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-2 my-4">
+          <p class="fw-bold">About</p>
+          <div class="list text-secondary">
+            <p>About US</p>
+            <p>Delivery information</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Contact Us</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-2 my-4">
+          <p class="fw-bold">My Account</p>
+          <div class="list text-secondary">
+            <p>Sign In</p>
+            <p>View Cart</p>
+            <p>My Wishlist</p>
+            <p>Track My Order</p>
+            <p>Help</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 my-4">
+          <div>
+            <p class="fw-bold">Contact</p>
+            <div>
+              <p class="text-secondary">From App Store Or Google Play</p>
+            </div>
+            <div class="pay">
+              <img src="./img/pay/app.jpg" alt="">
+              <img src="./img/pay/play.jpg" alt="">
+            </div>
+            <p class="my-3 text-secondary">Secure Payment Gateways</p>
+            <div>
+              <img src="./img/pay/pay.png" class="my-2">
+            </div>
+          </div>
+          </div>
+          <p class="text-center my-3 text-secondary">2025.Tech2 etc - HTML CSS E-commerce Template</p>
+        </div>
+      </div>
+    </div>
+
+      <!------- js for toggle menu ------>
+      <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px"
+
+        function menutoggle(){
+          if(MenuItems.style.maxHeight == "0px")
+              {
+                MenuItems.style.maxHeight = "200px"
+              }
+          else
+              {
+                MenuItems.style.maxHeight = "0px"
+              }
+        }
+      </script>
+
+
+      <!------------ js for product gallery------------>
+
+      <script>
+          var productImg = document.getElementById("productImg");
+          var smallImg = document.getElementsByClassName("small-img");
+            smallImg[0].onclick = function(){
+                productImg.src = smallImg[0].src;
+            }
+            smallImg[1].onclick = function(){
+                productImg.src = smallImg[1].src;
+            }
+            smallImg[2].onclick = function(){
+                productImg.src = smallImg[2].src;
+            }
+            smallImg[3].onclick = function(){
+                productImg.src = smallImg[3].src;
+            }
+      </script>
+
+      <script src="main.js"></script>    
+</body>
+</html>

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+
+    <!------Link style. id="bg-cover" style="background-image: url('./img/banner/');"css- id="bg-cover" style="background-image: url('./img/banner/');"------>
+    <link rel="stylesheet" href="style.css" />
+
+    <!------Link bootstrap------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!------Link font-awesome------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <!------Navigation bar------->
+    <header class="container-fluid align-center py-2 shadow-lg ">
+      <div class="container d-flex justify-content-between" id="navigation">
+        <div class="logo py-2">
+          <img src="./img/logo.png" />
+        </div>
+        
+        <div>
+          <ul id="navbar">
+            <li>
+              <a  href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="active" href="shop.html">Shop</a>
+            </li>
+            <li>
+              <a href="blog.html">Blog</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li>
+              <a class="d-none d-md-flex" href="cart.html"><i class="fa-solid fa-bag-shopping fs-5 d-flex"></i></a>
+            </li>
+            <a href="#" class="d-md-none" id="close"><i class="fa-solid fa-xmark"></i></a>
+          </ul>
+        </div>
+
+        <div class="mobile  gap-1 py-3 d-md-none d-flex ">
+          <a href="cart.html"><i class="fa-solid fa-bag-shopping fs-5 d-flex"></i></a>
+          <i id="bar" class="fa-solid fa-indent"></i>        
+        </div>
+
+      </div>
+    </header>
+
+
+    <!------Banner-1------->
+    <div class="banner-1 banner-4" style="background-image: url('./img/banner/b1.jpg');">
+        <!-- <img src="./img/banner/b2.jpg" width="100%" height="30%"> -->
+        <div class="des">            
+            <h1 class="fw-bold">#Stayhome</h1>
+            <p class="text-secondary">Save more with coupons & up to 70% off!</p>
+        </div>
+    </div>
+
+    <!------Products------->
+    <div class="container my-5">
+        <div class="heading text-center">
+            <h1 class="fw-bold ">Featured Products</h1>
+            <small>Summer Collection New Modern Desgin</small>
+        </div>
+        <div class="product my-5">
+            <div class="row gy-5 gx-5">
+                <a href="product-detail.html">
+                  <div class="col-12 col-lg-3 col-md-6">
+                      <div class="pro">
+                          <img src="./img/products/f1.jpg" class="card-img-top my-3 px-2">
+                          <div class="card-body text-start py-2 mx-2">
+                            <p class="card-text">adidas</p>
+                            <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                            <div class="star fs-6">
+                                <i class="fa-solid fa-star fs-6"></i>
+                                <i class="fa-solid fa-star fs-6"></i>
+                                <i class="fa-solid fa-star fs-6"></i>
+                                <i class="fa-solid fa-star fs-6"></i>
+                                <i class="fa-solid fa-star fs-6"></i>
+                            </div>
+                            <h4 class="fs-6 fw-bold my-1">$78</h4>
+                          </div>
+                          <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                        </div>
+                  </div>
+                </a>
+
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/f2.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/f3.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/f4.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/f5.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/f6.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/f7.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/f8.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/n1.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/n2.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/n3.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/n4.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/n5.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/n6.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/n7.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="pro">
+                        <img src="./img/products/f8.jpg" class="card-img-top my-3 px-2">
+                        <div class="card-body text-start py-2 mx-2">
+                          <p class="card-text">adidas</p>
+                          <h4 class="fs-6">Cartoon Astronaut T-shirts</h4>
+                          <div class="star fs-6">
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>  
+                              <i class="fa-solid fa-star fs-6"></i>
+                              <i class="fa-solid fa-star fs-6"></i>
+                          </div>
+                          <h4 class="fs-6 fw-bold my-1">$78</h4>
+                        </div>
+                        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+                      </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!------ Btn-Page ------->
+    <div class="container">
+        <div class="page-btn text-center fw-bold">
+            <span>1</span>
+            <span>2</span>                
+            <span>&#8594;</span>
+          </div>
+    </div>
+
+
+
+   <!------ Banner-3 And SignUP------->
+   <div class="banner-3 d-flex justify-content-around px-5 " id="banner-3">    
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="left">
+            <h4 class="fw-bold">Sign Up For Newletters</h4>
+            <p>get E-mail updates about our lastest shop and <span class="text-warning">special offers.</span></p>
+          </div>
+        </div>
+
+       <div class="col-12 col-md-6">
+         <div class="right d-flex my-3">
+           <input type="text" placeholder="Your email address">
+           <button class="fw-bold">Sign Up</button>
+         </div>
+       </div> 
+      </div>
+    </div>
+    </div>    
+
+
+  <!------ Footer ------->
+  <div class="container" id="footer">
+    <div class="row">
+      <div class="col-12 col-md-4 my-3">
+        <div class="ft-1 text-secondary">
+          <img src="./img/logo.png" alt="">
+          <p class="fw-bold my-3">Contact</p>
+          <div class="info">
+            <p><span>Address:</span> 562Welligatan Road. St 42. <br>San Francisco</p>
+            <p><span>Phone:</span> +12 2222 355/ +91 24443 332</p>
+            <p><span>Hours:</span> 10:00 - 18:00 Man-Sat</p>
+          </div>
+          <p class="fw-bold">Follow Us</p>
+        </div>
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-2 my-4">
+        <p class="fw-bold">About</p>
+        <div class="list text-secondary">
+          <p>About US</p>
+          <p>Delivery information</p>
+          <p>Privacy Policy</p>
+          <p>Terms & Conditions</p>
+          <p>Contact Us</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-2 my-4">
+        <p class="fw-bold">My Account</p>
+        <div class="list text-secondary">
+          <p>Sign In</p>
+          <p>View Cart</p>
+          <p>My Wishlist</p>
+          <p>Track My Order</p>
+          <p>Help</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 my-4">
+        <div>
+          <p class="fw-bold">Contact</p>
+          <div>
+            <p class="text-secondary">From App Store Or Google Play</p>
+          </div>
+          <div class="pay">
+            <img src="./img/pay/app.jpg" alt="">
+            <img src="./img/pay/play.jpg" alt="">
+          </div>
+          <p class="my-3 text-secondary">Secure Payment Gateways</p>
+          <div>
+            <img src="./img/pay/pay.png" class="my-2">
+          </div>
+        </div>
+        </div>
+        <p class="text-center my-3 text-secondary">2025.Tech2 etc - HTML CSS E-commerce Template</p>
+      </div>
+    </div>
+  </div>
+
+      <script src="main.js"></script>    
+</body>
+</html>
